@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.renluyensuckhoe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenWeightGain"/>
+        <activity android:name=".MWG_Monday"/>
+        <activity android:name=".MWG_Tursday"/>
+        <activity android:name=".MWG_Wednesday"/>
+        <activity android:name=".MWG_Thursday"/>
+        <activity android:name=".MWG_Friday"/>
+        <activity android:name=".MWG_Saturday"/>
+        <activity android:name=".MWG_Sunday"/>
+        <activity android:name=".MenWeightLoss"/>
+        <activity android:name=".MWL_Monday"/>
+        <activity android:name=".MWL_Tursday"/>
+        <activity android:name=".MWL_Wednesday"/>
+        <activity android:name=".MWL_Thursday"/>
+        <activity android:name=".MWL_Friday"/>
+        <activity android:name=".MWL_Saturday"/>
+        <activity android:name=".MWL_Sunday"/>
+        <activity android:name=".WomenWeightLoss"/>
+        <activity android:name=".WWL_Monday"/>
+        <activity android:name=".WWL_Tursday"/>
+        <activity android:name=".WWL_Wednesday"/>
+        <activity android:name=".WWL_Thursday"/>
+        <activity android:name=".WWL_Friday"/>
+        <activity android:name=".WWL_Saturday"/>
+        <activity android:name=".WWL_Sunday"/>
+        <activity android:name=".WomenWeightGain"/>
+        <activity android:name=".WWG_Friday"/>
+        <activity android:name=".WWG_Monday"/>
+        <activity android:name=".WWG_Saturday"/>
+        <activity android:name=".WWG_Sunday"/>
+        <activity android:name=".WWG_Thursday"/>
+        <activity android:name=".WWG_Wednesday"/>
+        <activity android:name=".WWG_Tursday"/>
+    </application>
+
+</manifest>

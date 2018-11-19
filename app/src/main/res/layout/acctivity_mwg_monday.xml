@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:id="@id/text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="THỨ 2: CÁC BÀI TẬP VAI"
+               android:textStyle="bold"
+               android:textSize="50px"
+               />
+
+
+           <TextView
+               android:id="@+id/text1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bài 1: Đứng thẳng lưng, tại vị trí bắt đầu hai tay giữa ngang vai, hít vào sau đó đẩy đều lên, không duổi thẳng tay, khi lên thở ra, tập 2 hiệu mỗi hiệu 8-10 rep."
+               android:layout_toRightOf="@id/g1"
+               android:textSize="30px"
+               android:layout_below="@id/text"
+               android:layout_marginTop="50px"
+               android:background="#999999"
+               />
+           <TextView
+               android:id="@+id/text2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bài 2: Đứng thẳng lưng, tại vị trí bắt đầu hai tay giữ thang tạ ngang ngực, hít vào sau đó từ từ đẩy lên, không duổi thẳng tay, khi lên thở ra, tập 2 hiệp mỗi hiệp 8-10 rep. "
+               android:layout_toRightOf="@id/g2"
+               android:layout_below="@id/text1"
+               android:layout_marginTop="115px"
+               android:textSize="30px"
+               android:background="#999999"
+               />
+           <TextView
+               android:id="@+id/text3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bài 3: Đứng thẳng lưng tại vị trí bắt đầu hai tay đặt ngang đùi tay hơi cong, hít vào sau đó từ từ đưa tay lên tạo với vai một góc 45 độ, khi lên thở ra, tập 2 hiệp mỗi hiệp 8-10 rep."
+               android:layout_toRightOf="@id/g3"
+               android:layout_below="@id/text2"
+               android:layout_marginTop="115px"
+               android:background="#999999"
+               />
+
+
+           <pl.droidsonroids.gif.GifImageView
+               android:id="@+id/g1"
+               android:layout_width="300px"
+               android:layout_height="300px"
+               android:src="@drawable/mwg_1"
+               android:layout_below="@id/text"
+               android:layout_marginTop="50px"/>
+           <pl.droidsonroids.gif.GifImageView
+               android:id="@+id/g2"
+               android:layout_width="300px"
+               android:layout_height="300px"
+               android:layout_below="@id/g1"
+               android:src="@drawable/mwg_2" />
+           <pl.droidsonroids.gif.GifImageView
+               android:id="@+id/g3"
+               android:layout_width="300px"
+               android:layout_height="300px"
+               android:layout_below="@id/g2"
+               android:src="@drawable/mwg_3" />
+
+
+       </RelativeLayout>
+   </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
