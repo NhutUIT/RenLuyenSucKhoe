@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="THỨ 4: CÁC BÀI TẬP CHÂN"
+                android:textSize="50px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/g1"
+                android:background="#999999"
+                android:text="Bài 1: Đứng tư thế một chân khụy trước một chân phía sau lúc này hít vào rồi bật lên đồng thời hai tay đưa lên cao và thở ra rồi trở về tư thế ban đầu và đổi chân, tập 2 hiệp, mỗi hiệp 8-10 rep." />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv2"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="65dp"
+                android:layout_toRightOf="@id/g2"
+                android:background="#999999"
+                android:text="Bài 2: Dùng một cục tạ đơn cầm trước ngực chân khụy xuống tạo một góc 45 độ rồi từ từ đưa tạ ra thì thở ra kéo gần lại thì hít vào, tập 2 hiệp, mỗi hiệp 8-10 rep" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="79dp"
+                android:layout_toRightOf="@id/g3"
+                android:background="#999999"
+                android:text="Bài 3: Dùng 2 tạ đơn, hai chân dan rộng và khụy xuống, tại đây ta hít vào rồi đứng dậy và đưa hai tay lên và thở ra, tập 2 hiệp mổi hiệp 8-10 rep." />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g1"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/wwg_3"
+                android:layout_below="@id/tv1"
+                android:layout_marginTop="30px"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g2"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/g1"
+                android:src="@drawable/wwg_4"
+                android:layout_marginTop="30px"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g3"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/g2"
+                android:src="@drawable/wwg_5"
+                android:layout_marginTop="30px"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

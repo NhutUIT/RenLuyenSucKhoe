@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHỦ NHẬT"
+                android:textSize="50px"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text"
+                android:layout_marginTop="50px"
+                android:layout_toRightOf="@id/g1"
+                android:background="#999999"
+                android:text="Bài 1: Nằm trên sàn đầu gối tạo thành ột góc 45 độ, hai tay đựt sau gáy, khi lên thở ra, khi xuống hít vào, tập với tốc độ tương dói nhanh trong 20 giây."
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="115px"
+                android:layout_toRightOf="@id/g2"
+                android:background="#999999"
+                android:text="Bài 2: Tại vị trí bắt đầu người co lại hai tay ôm lấy gối lúc này hít vào, sau đó duổi chân ra, lưng hơi ngã về sau, hai tay dang ra, lúc này thì thở ra, tập trong 20 giây. "
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text2"
+                android:layout_marginTop="115px"
+                android:layout_toRightOf="@id/g3"
+                android:background="#999999"
+                android:text="Bài 3: Nằm ngữa trên sàn chần nhất khỏi sàn sau đó đánh chân đều, thở đều và tập trong 20 giây" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="100dp"
+                android:layout_toRightOf="@id/g3"
+                android:background="#999999"
+                android:text="Bài 4: Nằm thẳng trên sàn, lúc này hít vào và gập người và nâng một chân lên sao cho khủy tay này chạm gối chân kia lúc này thở ra, tập trong 20 giây" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chú ý: Duy trì tập luyện đều đặn hằng ngày"
+                android:textStyle="bold"
+                android:textSize="50px"
+                android:layout_below="@id/g4"
+                android:layout_marginTop="30px"
+                android:layout_centerHorizontal="true"/>
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g1"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/text"
+                android:layout_marginTop="50px"
+                android:src="@drawable/mwl_1" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g2"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/g1"
+                android:src="@drawable/mwl_2" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g3"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/g2"
+                android:src="@drawable/mwl_3" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g4"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@id/g3"
+                android:src="@drawable/mwl_6" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
